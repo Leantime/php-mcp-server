@@ -11,7 +11,7 @@
         }
     ],
     "replace": {
-      "php-mcp/server": "self.version"
+      "php-mcp/server": "2.1.0"
     },
     "repositories": [
           {
