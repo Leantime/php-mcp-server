@@ -10,6 +10,9 @@
             "email": "koshnawaza@gmail.com"
         }
     ],
+    "replace": {
+      "php-mcp/server": "self.version"
+    },
     "require": {
         "php": ">=8.1",
         "opis/json-schema": "^2.4",
