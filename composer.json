@@ -14,6 +14,12 @@
     "replace": {
       "php-mcp/server": "self.version"
     },
+    "repositories": [
+          {
+              "type": "vcs",
+              "url": "https://github.com/Leantime/reactphp-http.git"
+          }
+      ],
     "require": {
         "php": ">=8.1",
         "opis/json-schema": "^2.4",
@@ -23,8 +29,8 @@
         "psr/log": "^1.0 || ^2.0 || ^3.0",
         "psr/simple-cache": "^1.0 || ^2.0 || ^3.0",
         "react/event-loop": "^1.5",
-        "react/http": "^1.11 || ^2.0",
-        "psr/http-message": "^1.0 || ^2.0",
+         "react/http": "dev-3.x",
+          "psr/http-message": "^2.0",
         "react/promise": "^3.0",
         "react/stream": "^1.4",
         "symfony/finder": "^6.4 || ^7.2"
