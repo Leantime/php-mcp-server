@@ -1,5 +1,5 @@
 {
-    "name": "php-mcp/server",
+    "name": "leantime/php-mcp-server",
     "description": "Core PHP implementation for the Model Context Protocol (MCP) server",
     "keywords": ["mcp", "model context protocol", "server", "php", "ai", "llm"],
     "type": "library",
@@ -19,7 +19,8 @@
         "psr/log": "^1.0 || ^2.0 || ^3.0",
         "psr/simple-cache": "^1.0 || ^2.0 || ^3.0",
         "react/event-loop": "^1.5",
-        "react/http": "^1.11",
+        "react/http": "^1.11 || ^2.0" - allows both current and future versions
+        "psr/http-message": "^1.0 || ^2.0" - explicitly allows both PSR versions
         "react/promise": "^3.0",
         "react/stream": "^1.4",
         "symfony/finder": "^6.4 || ^7.2"
