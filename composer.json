@@ -1,5 +1,5 @@
 {
-    "name": " leantime/php-mcp-server",
+    "name": "leantime/php-mcp-server",
     "description": "Core PHP implementation for the Model Context Protocol (MCP) server",
     "keywords": ["mcp", "model context protocol", "server", "php", "ai", "llm"],
     "type": "library",
