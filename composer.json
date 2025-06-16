@@ -29,7 +29,7 @@
         "psr/log": "^1.0 || ^2.0 || ^3.0",
         "psr/simple-cache": "^1.0 || ^2.0 || ^3.0",
         "react/event-loop": "^1.5",
-         "react/http": "dev-3.x",
+         "react/http": ""3.x-dev",
           "psr/http-message": "^2.0",
         "react/promise": "^3.0",
         "react/stream": "^1.4",
