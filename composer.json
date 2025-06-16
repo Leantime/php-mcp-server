@@ -1,6 +1,5 @@
 {
     "name": " leantime/php-mcp-server",
-    "version": "2.3.99",
     "description": "Core PHP implementation for the Model Context Protocol (MCP) server",
     "keywords": ["mcp", "model context protocol", "server", "php", "ai", "llm"],
     "type": "library",
